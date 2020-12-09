@@ -63,6 +63,7 @@ public class HigherOrLower {
                             firstCard=nextCard;
                             System.out.println("The cards were the same you didnt gain or lose a point or a life");
                         }
+                        break;
 
                     case 2:
                         int nextCard2 = Cards[getRandom()];
@@ -82,7 +83,9 @@ public class HigherOrLower {
                             System.out.println("The next card was " + nextCard2);
                             firstCard=nextCard2;
                             System.out.println("The cards were the same you didnt gain or lose a point or a life");
+                            
                         }
+                        break;
                 }
             }
 
